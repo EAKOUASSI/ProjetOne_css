@@ -1,0 +1,153 @@
+/* Styles pour le corps de la page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+/* Styles pour la navbar */
+
+.Logo{ /*Arrondi du logo rectangulaire*/
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+}
+
+#Navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Navbar ul li {
+    margin: 0 10px;
+}
+
+#Navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#media{
+    padding: 1%;
+    background-color: darksalmon;
+}
+
+#media h2{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#musique{
+    background-color:darkorange;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+#musique p{
+    text-align: center;
+    color: #f4f4f4;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+    border: 2px solid #ddd; /* Bordure subtile */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px;
+    max-width: 500px; /* Limite la largeur */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+
+.audio-container img {
+    width: 100px; /* Largeur des images */
+    height: 100px; /* Hauteur des images */
+    border-radius: 50%; /* Rond */
+    margin-right: 15px; /* Espace avec le lecteur audio */
+    border: 2px solid #ddd; /* Bordure subtile */
+    object-fit: cover; /* Ajuste l'image pour qu'elle remplisse bien le cadre */
+}
+
+/* L’audio prend toute la largeur du conteneur */
+.audio-container audio {
+    width: 100%; 
+}
+
+#contact{
+    background-color: rgb(17, 156, 156);
+    padding: 1%;
+    margin: 0%;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:unset;
+}
+
+input, textarea{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: medium;
+    border-radius: 5px;
+    min-height: 50px;
+    width:350px;   
+}
+
+/* Styles pour le pied de page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

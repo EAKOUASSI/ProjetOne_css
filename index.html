@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio d'un développeur web passionné. Découvrez mes projets, mon CV et mes informations de contact.">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div id="Logo">
+                <img src="images/LogoP.png" alt="LogoPortfolio" class="Logo">
+            </div>
+            <div id="Navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Découvrez mes projets et mon parcours.</p>
+        <p>
+            <em>What is Lorem Ipsum?</em><br>
+
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Je suis un développeur web passionné par la création de sites web interactifs et fonctionnels.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2>My Work</h2>
+        <ul>
+            <li>Projet 1</li>
+            <li>Projet 2</li>
+            <li>Projet 3</li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Téléchargez mon <a href="Images/CV_EKOUASSI.pdf" target="_blank">CV</a>.</p>
+    </section>
+
+    <!-- Video/Audio -->
+    <section id="media">
+        <h2>Séance BD</h2>
+        <div id="iframe">
+            <iframe width="866" height="487" src="https://www.youtube.com/embed/-kn4zkwrrYs"
+                title="LES AVENTURES DE ROBIN DES BOIS | Film Dessin Animé Complet en Français" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+            </iframe>
+        </div>
+
+    </section>
+
+    <section id="musique">
+        <h3>Musique</h3>
+        <div class="audio-container">
+            <h1>Pink</h1><br>
+            <img src="images/Pink.jpg" alt="Pink Artist">
+            <audio controls>
+                <source src="media/P_nk - So What.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas cet audio.
+            </audio>
+        </div>
+        <div class="audio-container">
+            <h1>Sia</h1><br>
+            <img src="images/Sia.jpg" alt="Pink Artist">
+            <audio controls>
+                <source src="" type="audio/mpeg">
+                Votre navigateur ne supporte pas cet audio.
+            </audio>
+        </div>
+        <p>Laissons-nous transformer par la musique</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>NOUS CONTACTER</h2><br>
+        <form>
+            </select>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="tel">Mobile Phone:</label>
+            <input type="tel" id="tel" name="tel" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pays">Pays de résidence : </label>
+            <select name="pays" id="pays">
+                <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="canada">France</option>
+                <option value="japon">Japon</option>
+            </select><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mon Portfolio </p>
+        <p>Tous droits réservés</p>
+    </footer>
+
+</body>
+
+</html>
